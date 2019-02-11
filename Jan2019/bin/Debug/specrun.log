@@ -1,0 +1,148 @@
+﻿2019-02-11T21:07:12.9302394+05:30;Thread#1;Info;starting test run
+2019-02-11T21:07:12.9842425+05:30;Thread#1;Info;Discovering target: Default
+2019-02-11T21:07:12.9842425+05:30;Thread#1;Info;Discovering tests from assembly: D:\Office\POC\Jan2019\Jan2019\bin\Debug\Jan2019.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Jan2019/Jan2019 - 
+#1: Default - 
+#2: Jan2019 - 
+#3: ExampleKeyword - 
+#5: guru99 - 
+#4: Example Keyword, mngr171499 - TestAssembly:Jan2019/Feature:ExampleKeyword/Scenario:Example+Keyword%2c+mngr171499
+#6: Demo Guru 99 - TestAssembly:Jan2019/Feature:guru99/Scenario:Demo+Guru+99
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#1:Scheduler: considering testitem #6 for thread 1
+Thread#1:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#1:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#1:TestItem#6:runsOnOneOtherThreadUnspecific:True
+Thread#1:Scheduler: using testitem #6 for thread 1
+Thread#1:Scheduler: Test #6 is scheduled for thread
+Thread#1:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Jan2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread #1: creating new test thread executor for Jan2019, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#1: Test #6/0 is started on thread #1
+Thread#1:T:-> Using app.config
+Thread#0:T:-> Using app.config
+Thread#1:B:Given I guru demo site
+Thread#0:B:Given I am on guru demo site
+Thread#0:T:error: Exception has been thrown by the target of an invocation.
+Thread#1:T:error: Exception has been thrown by the target of an invocation.
+Thread#0:B:When I enter mngr171499 and anugege
+Thread#1:B:When I enter credentials as 'mngr171499' & 'anugege'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should be logged in successfully.
+Thread#0:T:skipped because of previous errors
+Thread#1:T:skipped because of previous errors
+Thread#1:B:Then I should be logged in successfully
+Thread#1:T:skipped because of previous errors
+Thread#1:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#1:Scheduler: considering testitem #6 for thread 1
+Thread#1:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#1:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#1:TestItem#6:runsOnOneOtherThreadUnspecific:True
+Thread#1:Scheduler: using testitem #6 for thread 1
+Thread#1:Scheduler: Test #6 is scheduled for thread
+Thread#1:Scheduler: with testItemExecutionIndex 1
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#1: Test #6/0 is finished on thread #1 as Failed within 72.9901748 seconds
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 73.0041756 seconds
+Thread#1: Test #6/1 is started on thread #1
+Thread#0: Test #6/2 is started on thread #0
+Thread#1:B:Given I guru demo site
+Thread#0:B:Given I guru demo site
+Thread#1:T:error: Exception has been thrown by the target of an invocation.
+Thread#0:T:error: Exception has been thrown by the target of an invocation.
+Thread#1:B:When I enter credentials as 'mngr171499' & 'anugege'
+Thread#0:B:When I enter credentials as 'mngr171499' & 'anugege'
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should be logged in successfully
+Thread#0:T:skipped because of previous errors
+Thread#1:T:skipped because of previous errors
+Thread#1:B:Then I should be logged in successfully
+Thread#1:T:skipped because of previous errors
+Thread#1:Scheduler: get next test for thread 1
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#1:Scheduler: considering testitem #4 for thread 1
+Thread#1:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#1:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#1:TestItem#4:runsOnOneOtherThreadUnspecific:True
+Thread#1:Scheduler: using testitem #4 for thread 1
+Thread#1:Scheduler: Test #4 is scheduled for thread
+Thread#1:Scheduler: with testItemExecutionIndex 1
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 62.1605553 seconds
+Thread#1: Test #6/1 is finished on thread #1 as Failed within 62.1615554 seconds
+Thread#1: Test #4/1 is started on thread #1
+Thread#0: Test #4/2 is started on thread #0
+Thread#1:B:Given I am on guru demo site
+Thread#0:B:Given I am on guru demo site
+Thread#0:T:Unable to connect to the remote server
+Thread#1:T:Unable to connect to the remote server
+Thread#1:T:Unable to connect to the remote server
+Thread#0:T:Unable to connect to the remote server
+Execution cancelled by the user.
+Thread#1:T:done: ExampleKeywordSteps.GivenIAmOnGuruDemoSite() (76.3s)
+Thread#1:B:When I enter mngr171499 and anugege
+Thread#1:T:error: chrome not reachable
+Thread#1:T:  (Session info: chrome=71.0.3578.98)
+Thread#1:T:  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64) (100)
+Thread#1:B:Then I should be logged in successfully.
+Thread#1:T:skipped because of previous errors
+Thread#1: Test #4/1 is finished on thread #1 as Failed within 83.3577678 seconds
+Appdomain Disposed
+Thread#0:T:done: ExampleKeywordSteps.GivenIAmOnGuruDemoSite() (88.8s)
+Thread#0:B:When I enter mngr171499 and anugege
+Thread#0:T:error: chrome not reachable
+Thread#0:T:  (Session info: chrome=71.0.3578.98)
+Thread#0:T:  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64) (100)
+Thread#0:B:Then I should be logged in successfully.
+Thread#0:T:skipped because of previous errors
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 92.7943075 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-02-11T21:11:06.4655969+05:30;Thread#1;Info;test run finished
+2019-02-11T21:11:06.4655969+05:30;Thread#1;Info;publishing test results
+2019-02-11T21:11:06.6416070+05:30;Thread#1;Info;test results published
+2019-02-11T21:11:06.6416070+05:30;Thread#1;Info;generating reports
+2019-02-11T21:11:07.0666313+05:30;Thread#1;Info;creating 1 report(s)
+2019-02-11T21:11:07.0666313+05:30;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-02-11T21:11:14.6730663+05:30;Thread#1;Info;reports generated
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
