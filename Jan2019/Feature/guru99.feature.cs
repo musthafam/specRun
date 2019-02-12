@@ -78,7 +78,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
  testRunner.Given("I guru demo site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
- testRunner.When("I enter credentials as \'mngr171499\' & \'anugege\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I enter credentials as \'mngr178148\' & \'nenYmej\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 8
  testRunner.Then("I should be logged in successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
